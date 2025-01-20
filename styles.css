@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #1e1e2f; 
+    color: #f5f5f5; 
+    text-align: center;
+  }
+  
+  /* Heading Styles */
+  h1 {
+    font-size: 6.5rem;
+    color: #ffcc00; 
+  }
+  h2 {
+    font-size: 1.5rem;
+    color: #ffcc00; /
+  }
+  
+  /* Paragraph Styling */
+  p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: #bbbbbb; 
+  }
+  
+  /* Buttons Styling */
+  button {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 8px;
+    margin: 15px;
+    cursor: pointer;
+    background: #3a3a5e; 
+    color: #f5f5f5;
+    transition: background 0.3s, transform 0.2s;
+  }
+  
+  button:hover {
+    background: #ffcc00; 
+    color: #1e1e2f;
+    transform: scale(1.1);
+  }
+  
+  /* Home Page Buttons */
+  .buttons button {
+    width: 200px;
+  }
+  
+  /* About Section */
+  .about-section {
+    margin-top: 40px;
+    border-top: 2px solid #444;
+    padding-top: 20px;
+  }
+  
+  .about-section h2 {
+    color: #ffcc00;
+    margin-bottom: 10px;
+  }
+  
+  .about-section p {
+    color: #cccccc;
+  }
+  
+  /* Game Board Styling */
+  #game-board {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 10px;
+    margin: 20px auto;
+  }
+  
+  #game-board div {
+    width: 100px;
+    height: 100px;
+    background: #2a2a3b;
+    color: #ffcc00; 
+    font-size: 2rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background 0.3s, transform 0.2s;
+  }
+  
+  #game-board div:hover {
+    background: #444;
+    transform: scale(1.05);
+  }
+  
+  /* Message Styling */
+  #message {
+    font-size: 1.5rem;
+    color: #ff6666; 
+    margin-top: 15px;
+  }
+  
+  /* Controls Buttons */
+  .controls button {
+    padding: 12px 20px;
+    font-size: 1rem;
+    margin: 10px;
+    background: #3a3a5e;
+    color: #f5f5f5;
+    border-radius: 6px;
+  }
+  
+  .controls button:hover {
+    background: #ffcc00;
+    color: #1e1e2f;
+    transform: scale(1.1);
+  }
+  
